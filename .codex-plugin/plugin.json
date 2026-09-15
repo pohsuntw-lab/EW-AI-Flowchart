@@ -1,6 +1,6 @@
 {
   "name": "ew-ai-flowchart",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EW AI Flowchart turns process documents into validated EFD 2.1 JSON. EW AI Flowchart 將流程文件轉換為可驗證的 EFD 2.1 JSON。",
   "author": {
     "name": "Embodied Worker / 具象職人股份有限公司",
@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "EW AI Flowchart",
     "shortDescription": "Text to EFD｜文字生具象流程圖",
-    "longDescription": "EW AI Flowchart turns SOPs, meeting notes, job instructions, and process requirements into validated EFD 2.1 JSON for continued engineering work. Unlike an ordinary flowchart that mainly shows sequence, an embodied flow diagram also models business stages, organization responsibilities, node-level RACI, evidence, decisions, exception paths, stable references, and validation. EW AI Flowchart 將 SOP、會議紀要、工作說明與流程需求轉換為可持續編輯的 EFD 2.1 JSON。具象流程圖不只呈現一般流程圖的先後順序，也建立流程階段、組織責任、節點級 RACI、證據、判斷、例外路徑、穩定引用與工程驗證。",
+    "longDescription": "Create an embodied flow diagram from text with ChatGPT: give EW AI Flowchart an SOP, meeting note, job instruction, process description, or supplied document; it generates and validates an EFD 2.1 .efd.json file. Download that JSON and import it into the AI Embodied Flowchart desktop application to open, review, and continue editing the diagram. The JSON models business stages, organization lanes, typed nodes and edges, node-level RACI, evidence, decisions, and exception paths. Unlike an ordinary flowchart, it preserves machine-readable engineering semantics and stable references. AI generates constrained data rather than executable scripts. Users who need the desktop software can visit the Embodied Worker website. 使用 ChatGPT 文生具象流程圖：將 SOP、會議紀要、工作說明、流程敘述或文件交給 EW AI Flowchart，外掛會產生並驗證 EFD 2.1 .efd.json。下載 JSON 後，上傳至 AI 具象流程圖單機版，即可開啟、檢查並繼續編輯流程圖。JSON 包含流程階段、組織泳道、具類型的節點與連線、節點級 RACI、證據、判斷及例外路徑。不同於一般流程圖，它保存可機器讀取的工程語義與穩定引用；AI 只產生受約束的資料，不執行任意腳本。需要單機軟體的使用者可前往 Embodied Worker 官網。",
     "developerName": "Embodied Worker",
     "websiteURL": "https://www.embodiedworker.com",
     "privacyPolicyURL": "https://github.com/pohsuntw-lab/EW-AI-Flowchart/blob/main/PRIVACY.md",
