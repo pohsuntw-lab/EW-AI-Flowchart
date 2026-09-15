@@ -6,6 +6,44 @@ EW AI Flowchart 將 SOP、會議紀要、工作說明與流程需求，轉換成
 
 [Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6aa8c1342bb08191aa28e1ba7adfe833)
 
+![An anonymized EW AI Flowchart interface showing stages, responsibility lanes, process nodes, semantic connections, and a node-level RACI matrix.](assets/ew-ai-flowchart-showcase.png)
+
+The screenshot is an anonymized product illustration. It contains no customer, company, personal, API-key, or paid-product URL information.
+
+此畫面為匿名化產品示意，不含客戶、公司、個人、API Key 或付費產品網址。
+
+## What AI embodied flow engineering does
+
+AI embodied flow engineering analyzes supplied process material and organizes it into a machine-readable engineering model. The plugin identifies process stages, organization units, functional positions, tasks, decisions, documents, exception and rework paths, node-level RACI, and validation issues. It then produces deterministic EFD 2.1 JSON instead of executable scripts.
+
+AI 具象流程工程會分析使用者提供的流程資料，整理出流程階段、組織單位、職務、任務、判斷、文件、例外與返工路徑、節點級 RACI 及驗證問題，最後產生可機器讀取的 EFD 2.1 JSON，而不是可執行腳本。
+
+## What this plugin is for
+
+Use EW AI Flowchart when you need to turn an SOP, meeting record, job instruction, or process description into a structured EFD draft; validate or deterministically repair an existing `.efd.json`; or surface missing responsibilities, evidence, references, and exception closure before engineering delivery.
+
+當您需要把 SOP、會議紀錄、工作說明或流程敘述轉換成結構化 EFD 草稿、驗證或確定性修復既有 `.efd.json`，或在工程交付前找出責任、證據、引用及例外閉環缺口時，可使用 EW AI Flowchart。
+
+## Embodied flow diagram vs. ordinary flowchart
+
+| Ordinary flowchart | Embodied flow diagram (EFD) |
+|---|---|
+| Primarily shows the order of activities | Preserves activity order plus business stages and organization responsibility |
+| Boxes and lines may carry only visual meaning | Nodes and edges carry explicit, typed business semantics |
+| Responsibility is often written as loose text | RACI is assigned to specific nodes through stable participant references |
+| Inputs, outputs, and evidence may be implicit | Documents, evidence requirements, decisions, and acceptance information are structured |
+| Exceptions may end without recovery | Exceptions, rework, escalation, recovery, and closure can be validated |
+| Layout is often the main artifact | Versioned EFD JSON is the semantic source of truth; layout is a projection |
+
+| 一般流程圖 | 具象流程圖（EFD） |
+|---|---|
+| 主要呈現活動先後順序 | 除了順序，也保存流程階段與組織責任 |
+| 方塊與線條可能只有視覺意義 | 節點與連線具有明確且可驗證的業務語義 |
+| 責任常以自由文字附註 | RACI 透過穩定參與者引用配置到具體節點 |
+| 輸入、輸出與證據可能未結構化 | 文件、證據要求、判斷與驗收資訊皆可結構化 |
+| 例外可能中斷而沒有恢復路徑 | 可驗證例外、返工、升級、恢復與結案閉環 |
+| 畫面配置通常就是主要成果 | 版本化 EFD JSON 是語義真源，畫面只是投影 |
+
 ## What it produces
 
 - organization units and positions;

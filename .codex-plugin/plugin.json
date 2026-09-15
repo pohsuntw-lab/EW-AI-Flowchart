@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "EW AI Flowchart",
     "shortDescription": "Text to EFD｜文字生具象流程圖",
-    "longDescription": "EW AI Flowchart turns SOPs, meeting notes, job instructions, and process requirements into validated EFD 2.1 JSON with clear stages, organization responsibilities, node-level RACI, evidence, decisions, and exception paths. EW AI Flowchart 將 SOP、會議紀要、工作說明與流程需求轉換為經驗證的 EFD 2.1 JSON，清楚整理流程階段、組織責任、節點級 RACI、證據、判斷與例外路徑。",
+    "longDescription": "EW AI Flowchart turns SOPs, meeting notes, job instructions, and process requirements into validated EFD 2.1 JSON for continued engineering work. Unlike an ordinary flowchart that mainly shows sequence, an embodied flow diagram also models business stages, organization responsibilities, node-level RACI, evidence, decisions, exception paths, stable references, and validation. EW AI Flowchart 將 SOP、會議紀要、工作說明與流程需求轉換為可持續編輯的 EFD 2.1 JSON。具象流程圖不只呈現一般流程圖的先後順序，也建立流程階段、組織責任、節點級 RACI、證據、判斷、例外路徑、穩定引用與工程驗證。",
     "developerName": "Embodied Worker",
     "websiteURL": "https://www.embodiedworker.com",
     "privacyPolicyURL": "https://github.com/pohsuntw-lab/EW-AI-Flowchart/blob/main/PRIVACY.md",
