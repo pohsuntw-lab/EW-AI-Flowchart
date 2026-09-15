@@ -49,13 +49,18 @@ The validator checks the EFD 2.1 schema, stable IDs, references, start/end nodes
 
 ## Product
 
-- AI 具象流程圖 Site: <https://ai-efd-workflow.queboxun.chatgpt.site>
-- Developer: 具象職人股份有限公司 / Embodied Worker Co., Ltd.
-- Website: <https://www.embodiedworker.com>
+- Developer: Embodied Worker / 具象職人股份有限公司
+- Company website: <https://www.embodiedworker.com>
 - Contact: <pohsun@embodiedworker.com>
+
+The paid desktop application's product URL is intentionally not published in this plugin package.
+
+付費單機軟體的產品網址不會在此外掛程式套件中公開。
 
 ## License
 
 Proprietary. Copyright © 2026 具象職人股份有限公司. All rights reserved. See [LICENSE](LICENSE).
 
 Privacy, service terms, and support are available in [PRIVACY.md](PRIVACY.md), [TERMS.md](TERMS.md), and [SUPPORT.md](SUPPORT.md).
+
+See [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md) for the bilingual public-release rules.

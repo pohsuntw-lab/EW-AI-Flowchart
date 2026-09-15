@@ -1,13 +1,13 @@
 {
   "name": "ew-ai-flowchart",
-  "version": "0.1.0",
-  "description": "EW AI Flowchart\uff1a\u628a SOP\u3001\u6703\u8b70\u7d00\u8981\u8207\u6d41\u7a0b\u9700\u6c42\u8f49\u6210\u7d93\u9a57\u8b49\u7684 EFD 2.1 JSON\u3002",
+  "version": "0.1.1",
+  "description": "EW AI Flowchart turns process documents into validated EFD 2.1 JSON. EW AI Flowchart 將流程文件轉換為可驗證的 EFD 2.1 JSON。",
   "author": {
-    "name": "\u5177\u8c61\u8077\u4eba\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "name": "Embodied Worker / 具象職人股份有限公司",
     "email": "pohsun@embodiedworker.com",
     "url": "https://www.embodiedworker.com"
   },
-  "homepage": "https://ai-efd-workflow.queboxun.chatgpt.site",
+  "homepage": "https://www.embodiedworker.com",
   "license": "Proprietary",
   "keywords": [
     "efd",
@@ -19,10 +19,10 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "EW AI Flowchart",
-    "shortDescription": "\u5c07\u6587\u4ef6\u8207\u6587\u5b57\u935b\u9020\u6210\u53ef\u9a57\u8b49\u7684 EFD JSON\u3002",
-    "longDescription": "EW AI Flowchart \u4f9d\u64da\u5177\u8c61\u6d41\u7a0b\u5716 EFD 2.1 \u5951\u7d04\uff0c\u628a SOP\u3001\u6703\u8b70\u7d00\u8981\u3001\u5de5\u4f5c\u8aaa\u660e\u8207\u6d41\u7a0b\u9700\u6c42\u8f49\u6210\u8cac\u4efb\u3001\u8b49\u64da\u8207\u4f8b\u5916\u95dc\u4fc2\u6e05\u695a\u7684 .efd.json\uff0c\u4e26\u5728\u4ea4\u4ed8\u524d\u5b8c\u6210\u7d50\u69cb\u8207\u5f15\u7528\u9a57\u8b49\u3002",
-    "developerName": "\u5177\u8c61\u8077\u4eba\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-    "websiteURL": "https://ai-efd-workflow.queboxun.chatgpt.site",
+    "shortDescription": "Text to EFD｜文字生具象流程圖",
+    "longDescription": "EW AI Flowchart turns SOPs, meeting notes, job instructions, and process requirements into validated EFD 2.1 JSON with clear stages, organization responsibilities, node-level RACI, evidence, decisions, and exception paths. EW AI Flowchart 將 SOP、會議紀要、工作說明與流程需求轉換為經驗證的 EFD 2.1 JSON，清楚整理流程階段、組織責任、節點級 RACI、證據、判斷與例外路徑。",
+    "developerName": "Embodied Worker",
+    "websiteURL": "https://www.embodiedworker.com",
     "privacyPolicyURL": "https://github.com/pohsuntw-lab/EW-AI-Flowchart/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/pohsuntw-lab/EW-AI-Flowchart/blob/main/TERMS.md",
     "category": "Productivity",
@@ -35,9 +35,9 @@
     "composerIcon": "./assets/composer-icon.png",
     "logo": "./assets/logo.png",
     "defaultPrompt": [
-      "Turn this SOP into a validated EFD JSON. / \u5c07\u9019\u4efd SOP \u8f49\u6210\u53ef\u9a57\u8b49\u7684 EFD JSON\u3002",
-      "Build an EFD from these meeting notes. / \u4f9d\u9019\u4efd\u6703\u8b70\u7d00\u8981\u5efa\u7acb\u5177\u8c61\u6d41\u7a0b\u5716 JSON\u3002",
-      "Validate and repair this .efd.json. / \u9a57\u8b49\u4e26\u4fee\u6b63\u9019\u4efd .efd.json\u3002"
+      "Turn this SOP into a validated EFD JSON. / 將這份 SOP 轉成可驗證的 EFD JSON。",
+      "Build an EFD from these meeting notes. / 依這份會議紀要建立具象流程圖 JSON。",
+      "Validate and repair this .efd.json. / 驗證並修正這份 .efd.json。"
     ]
   }
 }
