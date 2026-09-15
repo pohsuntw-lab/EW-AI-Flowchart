@@ -22,6 +22,9 @@
     "shortDescription": "\u5c07\u6587\u4ef6\u8207\u6587\u5b57\u935b\u9020\u6210\u53ef\u9a57\u8b49\u7684 EFD JSON\u3002",
     "longDescription": "EW AI Flowchart \u4f9d\u64da\u5177\u8c61\u6d41\u7a0b\u5716 EFD 2.1 \u5951\u7d04\uff0c\u628a SOP\u3001\u6703\u8b70\u7d00\u8981\u3001\u5de5\u4f5c\u8aaa\u660e\u8207\u6d41\u7a0b\u9700\u6c42\u8f49\u6210\u8cac\u4efb\u3001\u8b49\u64da\u8207\u4f8b\u5916\u95dc\u4fc2\u6e05\u695a\u7684 .efd.json\uff0c\u4e26\u5728\u4ea4\u4ed8\u524d\u5b8c\u6210\u7d50\u69cb\u8207\u5f15\u7528\u9a57\u8b49\u3002",
     "developerName": "\u5177\u8c61\u8077\u4eba\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+    "websiteURL": "https://ai-efd-workflow.queboxun.chatgpt.site",
+    "privacyPolicyURL": "https://github.com/pohsuntw-lab/EW-AI-Flowchart/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/pohsuntw-lab/EW-AI-Flowchart/blob/main/TERMS.md",
     "category": "Productivity",
     "capabilities": [
       "Document analysis",

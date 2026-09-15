@@ -4,6 +4,8 @@ EW AI Flowchart turns SOPs, meeting notes, job instructions, and workflow requir
 
 EW AI Flowchart 將 SOP、會議紀要、工作說明與流程需求，轉換成可由「AI 具象流程圖」開啟及持續編輯的 `.efd.json` 工程資料。
 
+[Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6aa8c1342bb08191aa28e1ba7adfe833)
+
 ## What it produces
 
 - organization units and positions;
