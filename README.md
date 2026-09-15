@@ -55,3 +55,5 @@ The validator checks the EFD 2.1 schema, stable IDs, references, start/end nodes
 ## License
 
 Proprietary. Copyright © 2026 具象職人股份有限公司. All rights reserved. See [LICENSE](LICENSE).
+
+Privacy, service terms, and support are available in [PRIVACY.md](PRIVACY.md), [TERMS.md](TERMS.md), and [SUPPORT.md](SUPPORT.md).
