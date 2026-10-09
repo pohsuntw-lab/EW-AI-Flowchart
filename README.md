@@ -6,6 +6,31 @@ EW AI Flowchart 在 ChatGPT 中將 SOP、會議紀要、工作說明、流程敘
 
 [Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6aa8c1342bb08191aa28e1ba7adfe833)
 
+## Dual-Route Architecture / 雙路由架構
+
+**Product name remains EW AI Flowchart / 產品名稱維持 EW AI Flowchart。**
+
+EW AI Flowchart is evolving toward a dual-route architecture. The established process-engineering workflow remains the primary supported capability; the Knowledge Structuring route is under development on this branch.
+
+EW AI Flowchart 規劃採用雙路由架構：保留現有具象流程工程，並擴充「知識結構化」。兩條路由可共同建立供 EdgeAI MCP Server 查詢的企業知識契約庫；新增功能仍處於開發階段，不代表已正式上線。
+
+| Route / 路由 | Input / 輸入 | Output / 輸出 | Governance / 治理 |
+| --- | --- | --- | --- |
+| **A — Process Modeling / 具象流程工程** | ISO systems, SOPs, procedures, job instructions / ISO 體系、SOP、程序與工作說明 | Validated **EFD 2.1 JSON** with stages, tasks, edges and node-level **RACI** / 含流程節點與 RACI 的具象流程契約 | Human confirmation, roles, evidence, versioning / 人工確認、權責、證據、版本 |
+| **B — Knowledge Structuring / 知識結構化** *(in development / 開發中)* | Technical documents, manuals, academic papers, reviewed experience / 技術文件、手冊、論文、經審核經驗 | **Technical Knowledge JSON** with source anchors, conditions, limitations and review status / 含來源定位、適用條件、限制及審核狀態的技術知識契約 | No fabricated RACI, traceable claims, approval / 不虛構 RACI、主張可溯源、審核批准 |
+
+### Shared contract governance / 共用契約治理
+
+Document intake → Route A and/or Route B → JSON Schema validation → source/evidence review → versioned JSON Contract Library → **EdgeAI MCP Server** → authorized AI worker.
+
+文件接收 → 路由 A／B（同一文件可同時走兩路）→ Schema 驗證 → 來源與證據審核 → 版本化 JSON 契約庫 → **EdgeAI MCP Server** → 經授權 AI 數位員工。
+
+- **Knowledge Structuring is not vectorization. / 知識結構化不是向量化。** It creates explicit, inspectable JSON facts and relationships; it does not inherently create embeddings.
+- **MCP is the access interface, not the knowledge database or retrieval algorithm. / MCP 是存取介面，不是知識資料庫或檢索演算法。**
+- Technical research is reference knowledge, not automatically an approved operational Skill. / 論文研究成果不自動取得現場操作授權。
+- Existing EFD 2.1 and its RACI requirements remain unchanged. / 既有 EFD 2.1 與 RACI 規則維持相容。
+- Current draft schema, example, and validator: [Contract Knowledge Design](docs/contract-knowledge/README.md). The document-to-JSON extraction engine and MCP Server are **not yet deployed**. / 目前僅完成部分契約規格、範例與驗證程式，尚未部署文件自動轉換引擎與 MCP Server。
+
 ![An anonymized EW AI Flowchart interface showing stages, responsibility lanes, process nodes, semantic connections, and a node-level RACI matrix.](assets/ew-ai-flowchart-showcase.png)
 
 The screenshot is an anonymized product illustration. It contains no customer, company, personal, API-key, or paid-product URL information.
