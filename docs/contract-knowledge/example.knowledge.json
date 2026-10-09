@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "ew-knowledge-0.1",
+  "contractType": "technical_knowledge",
+  "knowledgeId": "TECH-MOTOR-EXAMPLE",
+  "title": "Motor vibration diagnostic reference (illustrative)",
+  "domain": "motor_diagnostics",
+  "equipmentIds": [],
+  "tags": [
+    "vibration"
+  ],
+  "source": {
+    "documentId": "EXAMPLE-NOT-A-REAL-SOURCE",
+    "title": "Illustrative placeholder",
+    "revision": null,
+    "uri": null,
+    "doi": null
+  },
+  "claims": [
+    {
+      "claimId": "CLAIM-001",
+      "statement": "Vibration frequency analysis may be relevant to motor diagnostics; verify against an actual cited source before use.",
+      "verificationStatus": "unverified",
+      "sourceAnchors": [],
+      "conditions": [],
+      "limitations": [
+        "Not an approved field operating rule"
+      ],
+      "parameters": []
+    }
+  ],
+  "relatedTaskIds": [],
+  "relatedSkillIds": [],
+  "review": {
+    "status": "draft",
+    "version": "0.1",
+    "reviewerId": null,
+    "approvedAt": null
+  }
+}
